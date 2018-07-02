@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap-Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Daniel Elston</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Me
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <div class="container shadow p-3 mb-5 bg-white rounded border containerCSTM">
+        <form>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="password" class="form-control" id="inputName" placeholder="Enter your name...">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email...">
+                <small id="emailHelp" class="form-text text-muted">I will probably sell your email address to the Russians...</small>
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <input type="message" class="form-control" id="inputMessage" placeholder="Enter comment(s)...">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="Check">
+                <p class="terms">
+                    I will give Daniel Edward Elston all of my finacial assests. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                    fugit minima corporis similique obcaecati quia quasi nihil, nemo natus nobis hic. Laudantium consequatur,
+                    quam eligendi molestiae nemo obcaecati doloremque nobis. Porro unde suscipit minus sequi optio! Accusantium
+                    quidem, necessitatibus itaque, obcaecati enim eaque a dicta dolorum, nihil totam at vero?
+                </p>
+                <label class="form-check-label" for="Check">I have read and agree to these terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <br>
+
+    <div class="footer">
+        <p>
+            Created by Daniel Elston
+        </p>
+    </div>
+</body>
+
+</html>

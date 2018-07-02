@@ -1,0 +1,25 @@
+body {
+    background-image: url(../images/escheresque_ste.png);
+    background-color: aquamarine;
+}
+
+.footer {
+    background-color: #666666;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dddddd;
+}
+
+.containerCSTM {
+    background-image: url(../images/ep_naturalwhite.png);
+}
+
+.terms {
+    font-size: 2px;
+}
