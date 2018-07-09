@@ -1,15 +1,17 @@
 body {
     background-image: url(../images/escheresque_ste.png);
     background-color: aquamarine;
+    padding-bottom: 100px;
 }
 
 .footer {
+    display: block;
     background-color: #666666;
     width: 100%;
     border-top: 5px solid #4aaaa5;
     text-align: center;
     padding: 5px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
